@@ -1,0 +1,20 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Raleway', times;
+ width:100%;
+}
+
+.title {
+	margin: 20px;
+}
+
+.project {
+	height: 30px;
+	width: 180px;
+	margin-left: 150px;
+	border-radius: 10px;
+	font-size: 16px;
+	background-color: darkgray;
+	display: inline-block;
+}
