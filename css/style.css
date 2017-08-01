@@ -5,16 +5,38 @@ html, body {
  width:100%;
 }
 
-.title {
-	margin: 20px;
+ul {
+	padding-left: 0px;
+}
+
+#headers {
+	padding-left: 10%;
+	background-color: lightgray;
+}
+
+#title {
+	height: 20px;
+}
+
+#subtitle {
+	padding-left: 5%;
+	height: 30px;
+	width: 50%;
+	display: inline-block;
+}
+
+#links {
+	padding-left: 10%;
+	height: 30px;
+	width: 30%;
+	display: inline-block;
 }
 
 .project {
 	height: 30px;
-	width: 180px;
-	margin-left: 150px;
-	border-radius: 10px;
+	width: 100%;
+	margin: 20px 0 20px 0;
 	font-size: 16px;
 	background-color: darkgray;
-	display: inline-block;
+	display: block;
 }
