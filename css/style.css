@@ -69,13 +69,17 @@ a {
 
 .image {
 	margin: 7.5px 0 5px 10px;
+	width: 264px;
 	height: 135.5px;
 	border: solid 2px black;
 	border-radius: 25%;
 	display: inline-block;
 }
 
+.pro_img {
+	display: inline-block;
+}
+
 .pro_text {
 	display:: inline-block;
-	width: 77%;
 }
