@@ -6,37 +6,76 @@ html, body {
 }
 
 ul {
-	padding-left: 0px;
+	padding: 0 10% 0 10%;
+}
+
+a {
+	padding: 0 15px 0 15px;
 }
 
 #headers {
-	padding-left: 10%;
 	background-color: lightgray;
+	height: 80px;
 }
 
 #title {
+	padding-left: 5%;
 	height: 20px;
 }
 
 #subtitle {
-	padding-left: 5%;
+	padding: 0 10% 0 10%;
 	height: 30px;
+	width: 100%;
+	display: inline-block;
+}
+
+#subsubtitle {
 	width: 50%;
 	display: inline-block;
 }
 
 #links {
-	padding-left: 10%;
+	padding-left: 20%;
 	height: 30px;
-	width: 30%;
+	width: 50%;
 	display: inline-block;
 }
 
+#project-title {
+	padding-left: 11%;
+}
+
+#pro {
+	margin-bottom: 0;
+}
+
+#list {
+	margin-top: 0;
+}
+
+#blackjack {
+	margin-top: 0;
+}
+
 .project {
-	height: 30px;
+	height: 150px;
 	width: 100%;
 	margin: 20px 0 20px 0;
 	font-size: 16px;
 	background-color: darkgray;
 	display: block;
+}
+
+.image {
+	margin: 7.5px 0 5px 10px;
+	height: 135.5px;
+	border: solid 2px black;
+	border-radius: 25%;
+	display: inline-block;
+}
+
+.pro_text {
+	display:: inline-block;
+	width: 77%;
 }
