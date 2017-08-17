@@ -83,3 +83,7 @@ a {
 .pro_text {
 	display:: inline-block;
 }
+
+.linky {
+	padding: 0;
+}
