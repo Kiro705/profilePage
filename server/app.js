@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // static middlewear
-app.use(express.static(resolve(__dirname, '..', 'public'))) // Serve static files from ../public
+app.use(express.static(resolve(__dirname, '..'))) // Serve static files from ../public
 app.use(express.static(resolve(__dirname, '..', 'node_modules')))
 
 //Other middlewear
@@ -13,7 +13,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 app.get('*', function (req, res, next) {
-  res.sendFile(resolve(__dirname, '..', 'public', 'index.html'));
+  res.sendFile(resolve(__dirname, '..', 'index.html'));
 });
 
 const port = process.env.PORT || 7700;
