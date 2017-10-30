@@ -1,0 +1,26 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "my profile page",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon --watch server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiro705/profilePage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiro705/profilePage/issues"
+  },
+  "homepage": "https://github.com/Kiro705/profilePage#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "volleyball": "^1.4.1"
+  }
+}
